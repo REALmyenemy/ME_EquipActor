@@ -41,8 +41,17 @@
 						$gameSwitches.setValue(match[2], true);
 					}
 					
-					$gameParty.removeActor(parseInt(match[1]));
-					$gamePlayer.refresh();
+					// $gameParty.removeActor(parseInt(match[1]));
+					// $gamePlayer.refresh();
+					// $gameMap.refresh();
+					// $gameMap.refreshTileEvents();
+					// SceneManager.resume();
+					// SceneManager.update();
+					// SceneManager.updateScene();
+					// SceneManager.renderScene();
+					// SceneManager.changeScene();
+					// SceneManager.initialize();
+					// SceneManager._scene.start();
 
 					saveTheOriginalChangeEquip.call(this,slot,id);
 				}
